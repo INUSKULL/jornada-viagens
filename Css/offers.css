@@ -3,6 +3,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    gap: 24px;
+    
 }
 
 .card{
@@ -14,7 +16,7 @@
     height: 288px;
     border-radius: 16px;
     text-align: center;
-    margin-top: 24px;
+
     
 }
 
@@ -63,11 +65,20 @@
     background-size: cover;
 }
 
+@media screen and (min-width: 768px) {
+    .offers-cards{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+}
+
 @media screen and (min-width: 1024px) {
 
     .card{
-        width: 588px;
-        height: 308x;
+        width: 420px;
+        height: 308px;
     }
     
     .card header h3 {
@@ -79,4 +90,19 @@
     }
 
     
+}
+
+@media screen and (min-width: 1440px) {
+    .card{
+        width: 588px;
+        height: 308px;
+    }
+    
+}
+
+@media screen and (min-width: 1920px) {
+    .offers-cards{
+        width: 1250px;
+        margin: 0 auto;
+    }
 }
