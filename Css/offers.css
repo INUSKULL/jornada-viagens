@@ -15,6 +15,7 @@
     border-radius: 16px;
     text-align: center;
     margin-top: 24px;
+    
 }
 
 .card header{
@@ -40,6 +41,26 @@
     font-size: 32px;
     margin-top: 24px;
     display: inline-block;
+}
+
+.card.japao{
+    background: url(../Img/card-japao-mobile.jpg) no-repeat;
+    background-size: cover;
+}
+
+.card.sanandreas{
+    background: url(../Img/card-sanandreas-mobile.jpg) no-repeat;
+    background-size: cover;
+}
+
+.card.paraiba{
+    background: url(../Img/card-paraiba-mobile.jpg) no-repeat;
+    background-size: cover;
+}
+
+.card.manaus{
+    background: url(../Img/card-manaus-mobile.jpg) no-repeat;
+    background-size: cover;
 }
 
 @media screen and (min-width: 1024px) {
