@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: "Montserrat";
   src: url(../fonts/Montserrat-VariableFont_wght.ttf);
@@ -47,6 +51,16 @@ body{
      color: var(--text-primary-color);
 }
 
+section{
+  width: 312px;
+  margin: 88px auto;
+}
+
+section.hero{
+  width: 100%;
+  margin: 0;
+}
+
 .section-title h2{
 
   font-weight: var(--titles-weight);
@@ -73,11 +87,15 @@ body{
     background-color: var(--secondary-color);
     border-radius: 8px;
     line-height: 64px;
-    width: 280px;
+    min-width: 280px;
     height: 64px;
 }
 
 @media screen and (min-width: 768px) {
+
+    section{
+    width: 648px;
+  }
 
   .section-title h2{
   font-size: 32px ;
@@ -88,8 +106,28 @@ body{
 
 @media screen and (min-width: 1024px) {
 
+     section{
+    width: 900px;
+  }
+    section.destinations{
+      width: 1024px;
+    }
+
   .button:hover{
     background-color: var(--primary-color);
   }
   
+  
 }
+
+@media screen and (min-width: 1440px) {
+    section{
+      width: 1200px;
+    }
+
+    section.categories{
+      width: 1440px;
+    }
+}
+
+
