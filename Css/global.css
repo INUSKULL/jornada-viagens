@@ -128,6 +128,10 @@ section.hero{
     section{
       width: 1200px;
     }
+
+    section.offers{
+      width: 1440px;
+    }
     
     section.destinations{
       width: 1440px;
