@@ -41,14 +41,18 @@ button {
   box-sizing: border-box;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 h1 {
   font-family: "Montserrat";
   font-weight: var(--titles-weight);
 }
 
 body{
-     font-family: "Montserrat";
-     color: var(--text-primary-color);
+  font-family: "Montserrat";
+  color: var(--text-primary-color);
 }
 
 section{
@@ -123,6 +127,10 @@ section.hero{
 @media screen and (min-width: 1440px) {
     section{
       width: 1200px;
+    }
+    
+    section.destinations{
+      width: 1440px;
     }
 
     section.categories{
