@@ -2,7 +2,7 @@
 
 .categories .section-title{
     width: 312px;
-    margin: 0 auto;
+    margin: 88px 0 32px 0;
 }
 
 .categories-cards{
@@ -92,7 +92,7 @@
     .categories-cards{
         width: 100%;
         max-width: 1440px;
-        margin: 122px auto;
+        margin: 32px auto 88px;
     } 
 
     .categories-cards .card{

@@ -1,7 +1,33 @@
-.destinations .item header{
+.destinations .section-title{
+    margin: 88px 24px 32px 24px;
+}
+
+.destinations .destinations-items .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.destinations .destinations-items .item header{
     display: block;
     background-color: transparent;
     position: static;
     padding: 0px;
     margin-bottom: 24px;
+    text-align: left;
+}
+
+.destinations .destinations-items .item header h4{
+    font-size: 32px;
+    font-weight: var(--titles-weight);
+    margin: 24px;
+}
+
+.destinations .destinations-items .item .img-item-tokyo{
+    background: url(../Img/Tokyo-mobile.jpg) no-repeat;
+    background-size: cover;
+    width: 312px;
+    height: 360px;
+    margin: 0 24px 0 24px;
 }
