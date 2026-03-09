@@ -27,7 +27,7 @@
     text-align: left;
 }
 
-.destinations .destinations-items .item header h4{
+.destinations .destinations-items .item header h3{
     font-size: 32px;
     margin: 24px 24px 0 24px;
 }
@@ -57,6 +57,7 @@
 
 .destinations .destinations-items .item .img-item-osaka{
     background: url(../Img/Osaka-mobile.jpg) no-repeat;
+    background-size: cover;
     width: 312px;
     height: 360px;
     margin:  24px;
