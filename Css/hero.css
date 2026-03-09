@@ -5,6 +5,13 @@
     background-size: cover;
 }
 
+.hero-footer-img{
+    height: 400px;
+    width: 100%;
+    background: url(../Img/hero-footer-mobile.jpg) no-repeat;
+    background-size: cover;
+}
+
 .hero h2{
     padding: 88px 24px 0 24px;
     margin: 0px;
@@ -21,6 +28,13 @@
     background: url(../Img/hero-tablet.jpg) no-repeat;
     background-size: cover;
 }  
+
+    .hero-footer-img{
+    width: 100%;
+    background: url(../Img/hero-footer-tablet.jpg) no-repeat;
+    background-size: cover;
+    }
+
     .hero h2{
     padding: 88px 60px;
     font-size: 32px;
@@ -34,6 +48,14 @@
     background: url(../Img/hero-desktop.jpg) no-repeat;
     background-size: cover;
 }  
+
+    .hero-footer-img{
+    height: 600px;
+    width: 100%;
+    background: url(../Img/hero-footer-desktop.jpg) no-repeat;
+    background-size: cover;
+    }
+    
     .hero h2{
     padding: 104px 120px;
     font-size: 32px;
