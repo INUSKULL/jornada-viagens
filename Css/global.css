@@ -91,6 +91,7 @@ section.hero{
 .content-text{
   font-size: 20px;
   font-weight: var(--text-weight);
+  margin-bottom: 8px;
 }
 
 .button{ 
@@ -104,6 +105,7 @@ section.hero{
     line-height: 64px;
     min-width: 280px;
     height: 64px;
+    text-align: center;
 }
 
 @media screen and (min-width: 768px) {
