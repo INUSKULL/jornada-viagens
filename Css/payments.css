@@ -1,8 +1,23 @@
 .payments .content-container{
-    margin: 88px 24px;
+    margin: 0 24px 88px 24px;
 }
 .payments .content-container .text-content{
-    text-align: start;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.payments .content-container .text-content h2{
+    align-self: flex-start;
+    font-size: 40px;
+}
+.payments .content-container .text-content h3{
+    align-self: flex-start;
+}
+
+.payments .content-container .text-content a{
+    width: 312px;
 }
 
 
@@ -43,6 +58,39 @@
     height: 182px;
     grid-column: span 2;
 }
+
+.payments .content-container .image-gallery-japao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    height: 460px;
+    margin: 24px;
+
+}
+
+.payments .content-container .image-gallery-japao .image-japao-um{
+    background: url(../Img/image-japão1.jpg) no-repeat;
+    background-size: cover;
+    width: 144px;
+    height: 254px;
+}
+.payments .content-container .image-gallery-japao .image-japao-dois{
+    background: url(../Img/image-japão2.jpg) no-repeat;
+    background-size: cover;
+    width: 144px;
+    height: 254px;
+}
+.payments .content-container .image-gallery-japao .image-japao-tres{
+    background: url(../Img/image-japão3.jpg) no-repeat;
+    background-size: cover;
+    width: 312px;
+    height: 182px;
+    grid-column: span 2;
+}
+
+
 
 @media screen and (min-width: 768px){
     .payments .content-container .image-gallery .image-bag{
