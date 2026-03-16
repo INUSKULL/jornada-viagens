@@ -1,8 +1,10 @@
 .payments .content-container{
     margin: 0 24px 88px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .payments .content-container .text-content{
-    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,6 +44,7 @@
     background-size: cover;
     width: 144px;
     height: 254px;
+    background-position: center;
 }
 
 .payments .content-container .image-gallery .image-passport{
@@ -49,6 +52,7 @@
     background-size: cover;
     width: 144px;
     height: 254px;
+    background-position: center;
 }
 
 .payments .content-container .image-gallery .image-people{
@@ -57,6 +61,7 @@
     width: 312px;
     height: 182px;
     grid-column: span 2;
+    background-position: center;
 }
 
 .payments .content-container .image-gallery-japao {
@@ -71,23 +76,26 @@
 }
 
 .payments .content-container .image-gallery-japao .image-japao-um{
-    background: url(../Img/image-japão1.jpg) no-repeat;
+    background: url(../Img/image-japao1.jpg) no-repeat;
     background-size: cover;
     width: 144px;
     height: 254px;
+    background-position: center;
 }
 .payments .content-container .image-gallery-japao .image-japao-dois{
-    background: url(../Img/image-japão2.jpg) no-repeat;
+    background: url(../Img/image-japao2.jpg) no-repeat;
     background-size: cover;
     width: 144px;
     height: 254px;
+    background-position: center;
 }
 .payments .content-container .image-gallery-japao .image-japao-tres{
-    background: url(../Img/image-japão3.jpg) no-repeat;
+    background: url(../Img/image-japao3.jpg) no-repeat;
     background-size: cover;
     width: 312px;
     height: 182px;
     grid-column: span 2;
+    background-position: center;
 }
 
 
@@ -109,6 +117,17 @@
         width: 648px;
         background-size: cover;
     }
+
+    .payments .content-container .image-gallery-japao .image-japao-um{
+        width: 312px;
+    }
+    .payments .content-container .image-gallery-japao .image-japao-dois{
+        width: 312px;
+    }
+    .payments .content-container .image-gallery-japao .image-japao-tres{
+        width: 648px;   
+    }
+
 }
 
 
@@ -146,5 +165,15 @@
     .payments .content-container .image-gallery .image-people{
         width: 790px;
         
+    }
+
+    .payments .content-container .image-gallery-japao .image-japao-um{
+        width: 383.5px;
+    }
+    .payments .content-container .image-gallery-japao .image-japao-dois{
+        width: 383.5px;
+    }
+    .payments .content-container .image-gallery-japao .image-japao-tres{
+        width: 790px;  
     }
 }
