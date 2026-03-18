@@ -1,0 +1,54 @@
+.formulary-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulary-text label{
+    align-self: flex-start;
+}
+
+.formulary-text input{
+    width: 312px;
+    height: 40px;
+}
+
+.formulary-text hr{
+    width: 312px;
+}
+
+#subjected{
+    height: 90px;
+    margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .formulary-text input{
+        width: 648px;
+    }
+
+    .formulary-text hr{
+        width: 648px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .formulary-text input{
+        width: 900px;
+    }
+
+    .formulary-text hr{
+        width: 900px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .formulary-text input{
+        width: 1200px;
+    }
+
+    .formulary-text hr{
+        width: 1200px;
+    }
+}
