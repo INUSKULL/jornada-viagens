@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Jornada Viagens - Os melhores preços e pacotes de viagem do Brasil"
+    />
+    <meta name="og:title" content="Jornada Viagens" />
+    <meta
+      name="og:image"
+      content="https://inuskull.github.io/jornada-viagens/Img/bussola-jornada-texto-branco.png"
+    />
+    <meta
+      name="og:description"
+      content="Os melhores preços e pacotes de viagem do Brasil"
+    />
+    <meta name="og:type" content="website" />
+    <meta name="og:url" content="https://inuskull.github.io/jornada-viagens" />
+    <link rel="stylesheet" href="./Css/style.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <title>Pacotes de Viagens</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <a class="logo" href="index.html" title="Voltar para a página inicial">
+        <img
+          class="img-mobile"
+          src="Img/bussola-jornada-branca.png"
+          alt="Bússola do logo Jornada Viagens"
+        />
+        <img
+          class="img-desktop"
+          src="Img/bussola-jornada-texto-branco.png"
+          alt="Logo do logo Jornada Viagens na cor Branca"
+        />
+      </a>
+      <div class="navegation-menu">
+        <label for="menu">
+          <img src="Img/menu.png" alt="Menu" />
+        </label>
+        <input type="checkbox" id="menu" hidden />
+        <nav>
+          <ul class="list-links">
+            <li>
+              <a href="blog.html" target="_blank" title="Acessar Blog">Blog</a>
+            </li>
+            <li>
+              <a
+                href="pacotes.html"
+                target="_blank"
+                title="Acessar Pacotes de Viagem"
+                >Pacote de Viagens</a
+              >
+            </li>
+            <li>
+              <a
+                class="active"
+                href="contato.html"
+                target="_blank"
+                title="Acessar Contato"
+                >Contato</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="hero-japao">
+      <div class="hero-img-contato">
+        <div class="section-title">
+          <h1 class="content-title">Entre em Contato!</h1>
+          <hr />
+          <h2 class="content-text">
+            Dúvidas, sugestões, problemas para resolver? Temos uma equipe de
+            plantão para ajudar você!
+          </h2>
+        </div>
+      </div>
+    </section>
+    <section class="formulary">
+      <div class="section-title">
+        <h2 class="content-title">Preencha o formulário:</h2>
+        <hr />
+      </div>
+
+      <div class="formulary-text section-title">
+        <label for="name">Nome</label>
+        <input id="name" type="text" placeholder="Nome Completo" />
+        <hr />
+        <label for="phone-number">Telefone</label>
+        <input
+          id="phone-number"
+          type="tel"
+          name="userPhoneNumber"
+          pattern="[0-9]{11}"
+          placeholder="DDD+Número"
+        />
+        <hr />
+        <label for="email">Email</label>
+        <input id="email" type="text" placeholder="E-mail" />
+        <hr />
+        <label for="subject">Assunto</label>
+        <input id="subject" type="text" placeholder="Nome do Assunto" />
+        <hr />
+
+        <input class="subject-text" name="assunto" id="subjected" placeholder="Descreva o Assunto">
+        </input>
+         <a
+              class="button"
+              href="#"
+              target="_self"
+              title="Enviar Formulário"
+            >
+              Enviar
+            </a>
+      </div>
+    </section>
+
+    <section class="hero-japao">
+      <div class="hero-footer-img-contato"></div>
+    </section>
+
+    <footer class="main-footer">
+      <div class="footer-content">
+        <img
+          src="./Img/Logo-branco.png"
+          alt="Logo Jornada Viagens na cor Branca"
+        />
+        <p>Horário de atendimento: 08h - 20h (Segunda a Sábado)</p>
+        <p>Desenvolvido por Alura. Projeto fictício sem fins comerciais.</p>
+      </div>
+      <div class="footer-social">
+        <p>Acesse nossas redes:</p>
+
+        <a href="#" target="_blank" title="Entre em contato pelo whatsapp">
+          <img src="./Img/icon-Whatsapp.svg" alt="Logo do whatsapp" />
+        </a>
+
+        <a href="#" target="_blank" title="Acesse nosso instagram">
+          <img src="./Img/icon-instragam.svg" alt="Logo do instagram" />
+        </a>
+
+        <a href="#" target="_blank" title="Acesse nosso twitter">
+          <img src="./Img/icon-Twitter.svg" alt="Logo do twitter" />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
